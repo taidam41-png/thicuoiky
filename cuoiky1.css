@@ -1,0 +1,208 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header {
+    background-color: #2fab35;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.phototourl.com/member/2026-10-05-770fde61-584f-4152-8b79-079a9a1fd39c.jpg) center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+.post {
+    flex: 3;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+    color: #0056b3;
+    margin-bottom: 15px;
+}
+
+
+
+.post p {
+    margin-bottom: 15px;
+}
+
+.post ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+}
+
+.widget {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.widget h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+.widget ul {
+    list-style: none;
+}
+
+.widget ul li {
+    margin-bottom: 10px;
+}
+
+.widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.widget ul li a:hover {
+    color: #0056b3;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.Fansipan{
+    text-align: center;
+}
+
+
+.ham-rong{
+    text-align: center;
+}
+.nha-tho{
+    text-align: center;
+}
+.cat-cat{
+    text-align: center;
+}
+.thung-lung{
+    text-align: center;
+}
+.Fansipan img{
+   
+    height: 100%;
+    width: 100%;
+}
+
+.ham-rong img{
+    height: 100%;
+    width: 100%;
+    
+}
+.nha-tho img{
+    height: 100%;
+    width: 100%;
+    
+}
+.cat-cat img{
+    height: 100%;
+    width: 100%;
+    
+}
+.thung-lung img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
